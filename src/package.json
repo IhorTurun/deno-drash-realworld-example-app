@@ -38,7 +38,8 @@
   },
   "scripts": {
     "webpack": "node_modules/.bin/webpack --hide-modules --env.environment=development",
-    "webpack-watch": "node_modules/.bin/webpack --hide-modules --watch --env.environment=development"
+    "webpack-watch": "node_modules/.bin/webpack --hide-modules --watch --env.environment=development",
+    "cy.test": "cypress open"
   },
   "dependencies": {
     "@johmun/vue-tags-input": "^2.1.0"
